@@ -4,6 +4,7 @@ use mikehaertl\wkhtmlto\Image;
 class ImageTest extends \PHPUnit_Framework_TestCase
 {
     CONST URL = 'http://www.google.com/robots.txt';
+	CONST URL1 = 'http://www.google.com/robots.txt';
 
     // Create image through constructor
     public function testCanCreateImageFromFile()
